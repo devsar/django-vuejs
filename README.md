@@ -100,7 +100,7 @@ DRF container uses `python:latest` (more info at `https://hub.docker.com/_/pytho
 
 To start from scratch, feel free to remove `src/frontend` and create a new `vue` project using the `vue-cli` command, for example:
 
-  bash$: rm -rf ./src/frontend && cd ./src && vue create frontend
+  `bash$: rm -rf ./src/frontend && cd ./src && vue create frontend`
 
 ## (optional) How to install `vue-cli` locally on your host
 
