@@ -7,7 +7,16 @@ This will setup, using docker-compose, a basic Django + Vuejs `(vue-cli project)
 - [ ]  Ready to be used on Production (nginx conf, prod settings, etc) 
 
 # First steps 
-Start (and build if needed) containers with the command:
+Clone me:
+
+  - `git clone https://github.com/devsar/django-vuejs.git`
+
+Install frontend requirements: 
+
+  - `cd django-vuejs && cd src/frontend && npm install && cd -`
+
+Let docker-compose build the containers:
+
   - `docker-compose up --build`
 
 Create Django tables on DB:
@@ -16,8 +25,6 @@ Create Django tables on DB:
 Create super user:
   - `docker-compose run backend django-admin createsuperuser`
 
-Start all containers:
-  - `docker-compose up`
 
 # How to use it
 First, be sure to complete `First steps` (described above).
